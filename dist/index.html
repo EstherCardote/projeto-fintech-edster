@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- A linha abaixo Diz ao celular para não diminuir o site para caber na tela, mas sim usar a largura real do aparelho e o zoom em 100% -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estgar - Gestão Financeira</title>
+
+    <!-- Link para o CSS gerado pelo Tailwind -->
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body class="bg-estgar-bege font-sans text-slate-800 min-h-screen flex items-center justify-center p-4">
+    <main class="bg-white w-full max-w-5xl rounded-3xl shadow-xl flex overflow-hidden min-h-150">
+
+        <section class="hidden md:block w-1/2 relative">
+            <img src="./assets/images/imagem-login.png" alt="Ilustração Estgar"
+                class="absolute inset-0 w-full h-full object-cover object-center">
+        </section>
+
+        <section class="bg-estgar-bege w-full md:w-1/2 p-8 md:p-12 flex flex-col justify-center items-center">
+            <div class="w-full max-w-sm">
+                <h2 class="text-3xl font-bold text-estgar-roxo mb-8">Bem-vindo de volta</h2>
+                <form class="space-y-5">
+                    <div>
+                        <label for="email" class="block text-sm font-semibold text-slate-700 mb-1">E-mail</label>
+                        <input type="email" id="email" class="w-full p-3 border border-gray">
+
+                    </div>
+
+                </form>
+
+            </div>
+        </section>
+
+    </main>
+
+</body>
+
+</html>
